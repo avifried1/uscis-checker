@@ -1,0 +1,20 @@
+{
+    "name": "uscis-checker",
+    "version": "1.0.0",
+    "description": "Dockerized service for checking USCIS case status and sending yourself a Slack alert",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:avifried1/uscis-checker.git"
+    },
+    "homepage": "https://github.com/avifried1/uscis-checker",
+    "author": "Avi Friedman",
+    "license": "MIT",
+    "dependencies": {
+        "node-fetch": "2.3.0",
+        "req-uscis-status": "1.0.3"
+    }
+}
